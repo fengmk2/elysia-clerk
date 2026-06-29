@@ -48,7 +48,8 @@
     "fmt": "vp fmt",
     "fmt:check": "vp fmt --check",
     "test": "vp test",
-    "test:watch": "vp test watch"
+    "test:watch": "vp test watch",
+    "prepare": "vp config"
   },
   "dependencies": {
     "@clerk/backend": "^3.2.7",
@@ -61,14 +62,14 @@
     "@elysiajs/html": "^1.4.0",
     "elysia": "^1.4.28",
     "typescript": "6.0.2",
-    "vite-plus": "^0.1.14"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.1318359eba93dfc997012ce2801f02fbe5534902",
+    "vite-plus": "0.0.0-commit.1318359eba93dfc997012ce2801f02fbe5534902"
   },
   "peerDependencies": {
     "elysia": "^1.4.0"
   },
   "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
-    "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.1318359eba93dfc997012ce2801f02fbe5534902"
   },
   "packageManager": "bun@1.3.11"
 }
